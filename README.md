@@ -18,4 +18,3 @@ flutter run
 
 Ce projet a été fait en 8h (enfin, un peu moins) dans le cadre d'un cours sur le language flutter
 elle fonctionn bien sur IOS, récupère la position du téléphone et affiche la météo actuelle et les prévisions sur 7 jours pour la ville de l'utilisatuer, Paris, Lyon, Tokyo, ainsi que des villes qui veux être ajouter manuellement
-```
