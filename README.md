@@ -1,16 +1,21 @@
-# app_meteo
+# Application météo
 
-A new Flutter project.
+Application météo développée en Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+pour installer les dépendences, il suffit de lancer la commande suivante dans le terminal :
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+pub get
+```
+Pour lancer l'application, il suffit de lancer la commande suivante dans le terminal :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run
+```
+
+Ce projet a été fait en 8h (enfin, un peu moins) dans le cadre d'un cours sur le language flutter
+elle fonctionn bien sur IOS, récupère la position du téléphone et affiche la météo actuelle et les prévisions sur 7 jours pour la ville de l'utilisatuer, Paris, Lyon, Tokyo, ainsi que des villes qui veux être ajouter manuellement
+```
