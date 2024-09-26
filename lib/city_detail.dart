@@ -1,4 +1,3 @@
-// lib/city_detail.dart
 import 'package:flutter/material.dart';
 import 'city_forecast_screen.dart';
 
@@ -37,11 +36,11 @@ class CityDetail extends StatelessWidget {
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Humidity: ${cityData['current']?['humidity']?.toString() ?? 'N/A'} %',
+                  'Humidité: ${cityData['current']?['humidity']?.toString() ?? 'N/A'} %',
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Weather: ${cityData['current']?['weather']?[0]['description'] ?? 'N/A'}',
+                  'Météo: ${cityData['current']?['weather']?[0]['description'] ?? 'N/A'}',
                   style: TextStyle(fontSize: 16),
                 ),
                 SizedBox(height: 20),
@@ -63,7 +62,7 @@ class CityDetail extends StatelessWidget {
                   SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: onDelete,
-                    child: Text('Delete City'),
+                    child: Text('Supprimer la ville'),
                     style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                   ),
                 ],
@@ -97,7 +96,7 @@ class CityDetail extends StatelessWidget {
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Time: $hour',
+                  'heure: $hour',
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
@@ -105,15 +104,15 @@ class CityDetail extends StatelessWidget {
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Humidity: ${cityData['current']?['humidity']?.toString() ?? 'N/A'} %',
+                  'Humidité: ${cityData['current']?['humidity']?.toString() ?? 'N/A'} %',
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Weather: ${cityData['current']?['weather']?[0]['description'] ?? 'N/A'}',
+                  'Météo: ${cityData['current']?['weather']?[0]['description'] ?? 'N/A'}',
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Wind Speed: ${cityData['current']?['wind_speed'] ?? 'N/A'} km/h',
+                  'Vitesse du vent: ${cityData['current']?['wind_speed'] ?? 'N/A'} km/h',
                   style: TextStyle(fontSize: 16),
                 ),
               ],
@@ -121,7 +120,7 @@ class CityDetail extends StatelessWidget {
           ),
           actions: <Widget>[
             TextButton(
-              child: Text('Close'),
+              child: Text('fermer'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
